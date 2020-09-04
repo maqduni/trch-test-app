@@ -7,9 +7,9 @@ The service takes advantage of the Node's asynchronous nature and runs
 the polling worker and the web server on the same thread.
 
 The API has 3 endpoints:
-/api/subway-lines/details/:lineNumber
-/api/subway-lines/status/:lineNumber
-/api/subway-lines/uptime/:lineNumber
+- /api/subway-lines/details/:lineNumber
+- /api/subway-lines/status/:lineNumber
+- /api/subway-lines/uptime/:lineNumber
 
 ## Run instructions
 1. Install dependencies
